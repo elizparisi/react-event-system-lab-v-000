@@ -3,11 +3,13 @@ import React, { Component } from 'react';
 
 export default class Keypad extends Component {
   
-  handleInputPassword()
+  handleInputPassword = () => {
+    console.log('Entering password...';
+  }
   
   render() {
     return(
-      <div> <input type="password" /> </div>
+      <div> <input type="password" key={/> </div>
       )
   }
 }
